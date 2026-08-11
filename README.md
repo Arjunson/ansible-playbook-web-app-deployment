@@ -33,11 +33,11 @@ In the host file:
 
 Test the server connection:
 
-    ansible -i hosts.ini prd -m ping
+    ansible prd -m ping
 
 Run the playbook:
 
-    ansible-playbook -i hosts.ini playbook.yml
+    ansible-playbook playbook.yml
 
 ## What It Does
 
